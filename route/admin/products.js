@@ -6,7 +6,7 @@ const productRepository = require('../../repository/productReopsitory');
 const newProductTemplate = require('../../views/admin/product/new');
 const editProductTemplate = require('../../views/admin/product/edit');
 const {reqTitle, reqPrice} = require('./validator');
-const productListTemplate = require('../../views/admin/product/index');
+const productListTemplate = require('../../views/admin/product');
 const router = express.Router();
 const upload = multer({storage: multer.memoryStorage()});
 
